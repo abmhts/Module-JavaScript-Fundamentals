@@ -13,11 +13,16 @@
     </header>
     <main>
       <form>
-        <!-- write your html here-->
-        <!-- 
-          try writing out the requirements first as comments
-        this will also help you fill in your PR message later-->
-      </form>
+      <h2>Customer information</h2>
+        <!-- Customer name must contain at least two non-space characters.-->
+        <label for="name">Name:</label>
+        <input type="text" id="name" pattern=".*\S.*\S.*" required>      
+        <!-- Customer email must be valid and follow a consistent email address pattern.-->
+        <label for="email">Email:</label>
+        <input type="email" id="email" required>
+        <!-- Provide 3 T-shirt colour options.-->
+        <!-- Provide 6 size options: XS, S, M, L, XL, XXL-->
+        </form>
     </main>
     <footer>
       <!-- change to your name-->
