@@ -11,7 +11,7 @@
 // }
 
 // =============> write your explanation here
-  //- I changed the variable name to "strg" to avoid the error.
+//  Instead of storing the formatted string in a new variable and then returning it, I return the expression directly since the variable was only used once.
 // =============> write your new code here
 function capitalise(str) {
   return `${str[0].toUpperCase()}${str.slice(1)}`;
