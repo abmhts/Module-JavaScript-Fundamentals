@@ -22,18 +22,18 @@ console.log(formatTimeDisplay());
 
 // a) When formatTimeDisplay is called how many times will pad be called?
 // =============> write your answer here
-  //- 3 times
+//- 3 times
 // Call formatTimeDisplay with an input of 61, now answer the following:
-  // b) What is the value assigned to num when pad is called for the first time?
-  //- 0
+// b) What is the value assigned to num when pad is called for the first time?
+//- 0
 
 // c) What is the return value of pad when it is called for the first time?
 // =============> write your answer here
-  //- "00"
+//- "00"
 // d) What is the value assigned to num when pad is called for the last time in this program?  Explain your answer
 // =============> write your answer here
-  //- 1, remainingSeconds is 1 because 61 % 60 = 1. The last call is pad(remainingSeconds) so pad(1) makes num = 1.
+//- 1, remainingSeconds is 1 because 61 % 60 = 1. The last call is pad(remainingSeconds) so pad(1) makes num = 1.
 
 // e) What is the return value of pad when it is called for the last time in this program?  Explain your answer
 // =============> write your answer here
-  //- "01" , num.toString() changes 1 into "1". Since "1" has only 1 character, the while loop adds "0" in front, making "01".
+//- "01" , num.toString() changes 1 into "1". Since "1" has only 1 character, the while loop adds "0" in front, making "01".

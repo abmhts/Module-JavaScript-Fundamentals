@@ -16,7 +16,6 @@
 // This might help https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/toUpperCase
 
 function toUpperSnakeCase(sentence) {
-        return sentence.toUpperCase().replaceAll(" ", "_");
-
+  return sentence.toUpperCase().replaceAll(" ", "_");
 }
-  console.log(toUpperSnakeCase("welcome to Chad"));
+console.log(toUpperSnakeCase("welcome to Chad"));
