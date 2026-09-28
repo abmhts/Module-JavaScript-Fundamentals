@@ -12,7 +12,7 @@
 // }
 
 // =============> write the error message here
-
+// SyntaxError: Unexpected number
 // =============> explain this error message here
     // we gave a placeholder for the function instead of value that can't be changed.
 // Finally, correct the code to fix the problem
