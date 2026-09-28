@@ -15,8 +15,8 @@
 // Use the MDN string documentation to help you find a solution
 // This might help https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/toUpperCase
 
-function convertToUpperCase(sentence) {
+function toUpperSnakeCase(sentence) {
         return sentence.toUpperCase().replaceAll(" ", "_");
 
 }
-  console.log(convertToUpperCase("welcome to Chad"));
+  console.log(toUpperSnakeCase("welcome to Chad"));
