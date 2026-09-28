@@ -28,10 +28,10 @@
 
 // This program should tell the user the last digit of each number.
 // Explain why getLastDigit is not working properly - correct the problem
-  //-The function was looking at the outside "num" but Now there are two (num) one outside the scope "const num= 103" and i added another inside the function scope.
+  //-I removed the unnecessary const num = 103 because the function already receives num as a parameter. 
   //-The function calculates something and returns it then console.log outside receives that returned value and prints it.
 
-  const num = 103;
+
 
 function getLastDigit(num) {
   return num.toString().slice(-1);
