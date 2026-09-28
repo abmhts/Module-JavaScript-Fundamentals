@@ -14,6 +14,6 @@
   //- I changed the variable name to "strg" to avoid the error.
 // =============> write your new code here
 function capitalise(str) {
-  let strg = `${str[0].toUpperCase()}${str.slice(1)}`;
-  return strg;
+  return `${str[0].toUpperCase()}${str.slice(1)}`;
 }
+console.log(capitalise("abakar"));
