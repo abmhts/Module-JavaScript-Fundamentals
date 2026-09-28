@@ -16,11 +16,10 @@
 // console.log(decimalNumber);
 
 // =============> write your explanation here
-  // I moved `const decimalNumber = 0.5` outside the function. The function already has `decimalNumber` as a parameter, so I can pass a number directly when calling it, like `convertToPercentage(7)`. The function then multiplies it by 100 and adds `%`.
+  // I removed the separate decimalNumber variable because the function already accepts decimalNumber as a parameter. I can now pass a number directly when calling the function, such as convertToPercentage(7). The function multiplies the value by 100 and appends % to return the percentage.
 
 // =============> write your new code here
 
-const decimalNumber = 0.5;
 
 function convertToPercentage(decimalNumber) {
 
